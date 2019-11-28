@@ -13,7 +13,7 @@ import java.util.Collections;
 
 public class OptionaTaskOne {
     public static void main(String[] args) throws IOException {
-        ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<String>();
         File myfile = new File("Sourcefile.txt");
         FileReader fr = new FileReader(myfile);
         BufferedReader reader = new BufferedReader(fr);
